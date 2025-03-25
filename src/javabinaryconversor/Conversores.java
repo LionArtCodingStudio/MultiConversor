@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * @author leoga
  */
 public class Conversores {
-    
+        // conversor Decimal para Binario
         public static String dec_bi(String numero){
             String resB;
             String numStr = numero;
@@ -69,12 +69,11 @@ public class Conversores {
             }
             resB=binarioStr;
             return resB;
-            //chama o BinarioStr e divisoresStr em suas respectivas textAreas
-            //ou o output de sua escolha casa esteja usando fora do netbeans
+            
     }
         public static String bi_dec(String numero){
             String resDec="";
-            
+          // em progresso  
             return resDec;
         }
 }
