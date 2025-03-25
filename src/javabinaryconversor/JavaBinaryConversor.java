@@ -45,11 +45,7 @@ public class JavaBinaryConversor extends Conversores {
         frame.add(lbNum);
         //Campo de texto
         JTextField txtNumero = new JTextField();
-        txtNumero.setBounds(15,30,165,  15);
-        
-        String txtNum=txtNumero.getText();
-        
-        
+        txtNumero.setBounds(15,30,165,  15);        
         frame.add(txtNumero);   
         
         //------------------------------------------
